@@ -10,9 +10,6 @@
     left: 420px;
     top: 180px;
 }
-
-@media (min-height: 574px) {
-    body{
-        height: 100%;
-    }
+.main{
+    height: 100%;
 }
