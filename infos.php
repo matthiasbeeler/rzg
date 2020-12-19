@@ -26,6 +26,6 @@ $user = $stmt->fetch();
         <h3><?php echo $user['dat']; ?></h3></center>
     <h2>Staat: <?php echo $user['staat']; ?></h2>
     <h2>Gründung: <?php echo $user['gruend']; ?></h2>
-    <h2>Aufenthaltszeit: <?php echo $user['aufenthalt']; ?></h2>
+    <h2>Aufenthaltszeit: <?php echo $user['auenthalt']; ?></h2>
 </body>
 </html>
