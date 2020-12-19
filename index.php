@@ -7,12 +7,14 @@
     <title>RZG</title>
 </head>
 <body>
-    <form action="infos.php" method="post">
+   
     <div class="main">
         <div class="bg">
+        <form action="infos.php" method="post">
             <input type="submit" value="1" name="sub" class="btn">
+            </form>
         </div>
     </div>
-</form>
+
 </body>
 </html>
