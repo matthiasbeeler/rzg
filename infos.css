@@ -16,7 +16,8 @@ img{
     .route, .ort{
         width: 30%;
     }
-    .content{
+    .container{
         justify-content: space-around;
         display: flex;
     }
+}
