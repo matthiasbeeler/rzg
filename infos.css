@@ -11,3 +11,12 @@ img{
     margin-top: 5%;
     margin-bottom: 5%;
 }
+
+@media screen and (min-width: 600px) {
+    .route, .ort{
+        width: 30%;
+    }
+    .content{
+        justify-content: space-around;
+        display: flex;
+    }
