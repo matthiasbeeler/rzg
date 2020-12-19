@@ -1,0 +1,12 @@
+.bg{
+    background-image: url(map.jpg);
+    position: absolute;
+    background-size: contain;
+    width: 819px;
+    height: 541px;
+}
+.btn{
+    position: absolute;
+    left: 420px;
+    top: 180px;
+}
