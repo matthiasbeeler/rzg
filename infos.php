@@ -27,5 +27,6 @@ $user = $stmt->fetch();
     <h2>Staat: <?php echo $user['staat']; ?></h2>
     <h2>Gründung: <?php echo $user['gruend']; ?></h2>
     <h2>Aufenthaltszeit: <?php echo $user['auenthalt']; ?></h2>
+    <img src="img/<?php echo $user['was']; ?>.png" alt="">
 </body>
 </html>
