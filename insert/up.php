@@ -23,5 +23,11 @@ $data = [
     'dat' => $dat,
 ];
 
+$sql = "INSERT INTO orte (was, von, zeit, dist, staat, gruend, auenthalt, dat) VALUES (:was, :von, :zeit, :dist, :staat, :gruend, :aufent, :dat)";
+        $stmt= $dbh->prepare($sql);
+        $res = $stmt->execute($data);
+        if($res){
+            echo "SUCCESS";
+        }
 
 ?>
