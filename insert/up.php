@@ -11,6 +11,7 @@ $gruend = $_POST['gruend'];
 $aufent = $_POST['aufenthalt'];
 $dat = $_POST['dat'];
 $was_mach = $_POST['was'];
+$geld = $_POST['geld'];
 
 
 $data = [
@@ -23,6 +24,7 @@ $data = [
     'aufent' => $aufent,
     'dat' => $dat,
     'was_m' => $was_mach,
+    'geld' => $geld,
 ];
 
         $sql = "INSERT INTO orte (was, von, zeit, dist, staat, gruend, auenthalt, dat, was_machen) VALUES (:was, :von, :zeit, :dist, :staat, :gruend, :aufent, :dat, :was_m)";
