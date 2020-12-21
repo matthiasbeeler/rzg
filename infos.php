@@ -24,8 +24,9 @@ $user = $stmt->fetch();
     <center><h1><?php echo $user['von']; ?> - <?php echo $user['was']; ?></h1></center><br>
     <h2>Fahrt: <?php echo $user['zeit']; ?>h</h2>
     <h2>Distanz: <?php echo $user['dist']; ?>km</h2>
-    <img src="routes/<?php echo $user['was']; ?>.png" alt="">
+    <img src="routen/<?php echo $user['was']; ?>.png" alt="">
     </div>
+
     <div class="ort">
     <center><h1><?php echo $user['was']; ?></h1>
         <h3><?php echo $user['dat']; ?></h3></center><br>
