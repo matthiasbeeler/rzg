@@ -12,6 +12,7 @@ $aufent = $_POST['aufenthalt'];
 $dat = $_POST['dat'];
 $was_mach = $_POST['was'];
 $geld = $_POST['geld'];
+$hotel = $_POST['hotel']
 
 
 $data = [
@@ -25,9 +26,10 @@ $data = [
     'dat' => $dat,
     'was_m' => $was_mach,
     'geld' => $geld,
+    'hotel' => $hotel,
 ];
 
-        $sql = "INSERT INTO orte (was, von, zeit, dist, staat, gruend, auenthalt, dat, was_machen, geld) VALUES (:was, :von, :zeit, :dist, :staat, :gruend, :aufent, :dat, :was_m, :geld)";
+        $sql = "INSERT INTO orte (was, von, zeit, dist, staat, gruend, auenthalt, dat, was_machen, geld, hotel) VALUES (:was, :von, :zeit, :dist, :staat, :gruend, :aufent, :dat, :was_m, :geld, :hotel)";
         $stmt= $dbh->prepare($sql);
         $stmt->execute($data);
         header('Refresh: 0; URL =   index.html');
