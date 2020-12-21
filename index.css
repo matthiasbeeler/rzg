@@ -24,6 +24,12 @@ input[type="submit"]{
 }
 #phil{
     position: absolute;
-    left: 700px;
-    top: 150px;
+    left: 680px;
+    top: 170px;
+}
+
+#pitt{
+    position: absolute;
+    left: 630px;
+    top: 177px;
 }
