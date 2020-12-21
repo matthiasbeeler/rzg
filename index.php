@@ -14,6 +14,7 @@
             <input type="submit" value="31" name="sub" id="nyc" class="btn">
             <input type="submit" value="41" name="sub" id="phil" class="btn">
             <input type="submit" value="51" name="sub" id="pitt" class="btn">
+            <input type="submit" value="61" name="sub" id="chic" class="btn">
             </form>
         </div>
     </div>
