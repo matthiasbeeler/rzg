@@ -12,7 +12,7 @@ $aufent = $_POST['aufenthalt'];
 $dat = $_POST['dat'];
 $was_mach = $_POST['was'];
 $geld = $_POST['geld'];
-$hotel = $_POST['hotel']
+$hotel = $_POST['hotel'];
 
 
 $data = [
