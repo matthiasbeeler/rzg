@@ -27,7 +27,7 @@ $data = [
     'geld' => $geld,
 ];
 
-        $sql = "INSERT INTO orte (was, von, zeit, dist, staat, gruend, auenthalt, dat, was_machen) VALUES (:was, :von, :zeit, :dist, :staat, :gruend, :aufent, :dat, :was_m)";
+        $sql = "INSERT INTO orte (was, von, zeit, dist, staat, gruend, auenthalt, dat, was_machen, geld) VALUES (:was, :von, :zeit, :dist, :staat, :gruend, :aufent, :dat, :was_m, :geld)";
         $stmt= $dbh->prepare($sql);
         $stmt->execute($data);
         header('Refresh: 0; URL =   index.html');
