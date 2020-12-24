@@ -12,6 +12,9 @@
 ?>
 
 <style>
+    *{
+        font-family: sans-serif;
+    }
     th,td {
         border: none;
         border-top: 2px dotted black;
