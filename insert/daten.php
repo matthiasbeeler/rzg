@@ -1,6 +1,13 @@
 <?php
     include_once '../db.php';
     $stmt = $dbh->query("SELECT * FROM orte ORDER BY id DESC");
+
+    $res = $dbh->prepare("SELECT SUM(geld) AS money FROM orte");
+    $res->execute();
+    while ($row = $res->fetch(PDO::FETCH_ASSOC))
+    {
+        echo $row['money']." CHF ausgegeben";
+    }
 ?>
 
 <style>
