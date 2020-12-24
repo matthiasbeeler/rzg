@@ -4,7 +4,7 @@
 ?>
 
 <style>
-    tr,th {
+    th,td {
         border: none;
         border-top: 2px dotted black;
         border-left: 2px dotted black;
