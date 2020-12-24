@@ -26,7 +26,7 @@
                     <th>Fahrtzeit</th>
                     <th>Distanz</th>
                     <th>Staat</th>
-                    <th>gruendung</th>
+                    <th>Beschaeftigung</th>
                     <th>Aufenthaltszeit</th>
                     <th width="20%">Datum</th>
                 </tr>
@@ -43,7 +43,7 @@
                     <td><?php echo $row ['zeit'];?></td>
                     <td><?php echo $row ['dist'];?></td>
                     <td><?php echo $row ['staat'];?></td>
-                    <td><?php echo $row ['gruend'];?></td>
+                    <td><?php echo $row ['was_machen'];?></td>
                     <td><?php echo $row ['auenthalt'];?></td>
                     <td><?php echo $row['dat'];?></td>
                     </form>
