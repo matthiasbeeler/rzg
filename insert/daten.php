@@ -1,6 +1,6 @@
 <?php
     include_once '../db.php';
-    $stmt = $pdo->query("SELECT * FROM orte ORDER BY id DESC");
+    $stmt = $dbh->query("SELECT * FROM orte ORDER BY id DESC");
 
 
 
