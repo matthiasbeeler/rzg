@@ -16,7 +16,7 @@
                     <th>Staat</th>
                     <th>gruendung</th>
                     <th>Aufenthaltszeit</th>
-                    <th width="20%">Wann</th>
+                    <th width="20%">Datum</th>
                 </tr>
 
                 <?php 
@@ -24,13 +24,6 @@
                 <form>
                 <tr>
                   <?php 
-                  $tel = $row['tel'];
-                  if ($tel > "0740000000" && $tel < "0799999999") {
-                    
-                    ?><form><td ><?php echo $row['id'];?></td><?php
-                  }else {
-                    ?><td id="wrong"><?php echo $row['id'];?></td><?php
-                  }
                   ?>
                     
                     <td ><?php echo $row['was'];?></td>
