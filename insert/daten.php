@@ -1,3 +1,4 @@
+<a href="index.html">Back</a><br>
 <?php
     include_once '../db.php';
     $stmt = $dbh->query("SELECT * FROM orte ORDER BY id DESC");
@@ -17,7 +18,7 @@
         border-left: 2px dotted black;
 }
 </style>
-<a href="index.html">Back</a>
+
     <table>
                 <tr>
                     <th>Stadt</th>
