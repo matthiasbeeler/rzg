@@ -1,7 +1,9 @@
 <?php
     include_once '../db.php';
-    $query = "SELECT * FROM orte ORDER BY id ASC";
-    $filter_Result = mysqli_query($conn, $query);
+    $stmt = $pdo->query("SELECT * FROM orte ORDER BY id DESC");
+
+    echo $row['name']."<br />\n";
+
 
 
 ?>
@@ -19,7 +21,7 @@
                 </tr>
 
                 <?php 
-                while($row = mysqli_fetch_array($filter_Result)): ?>
+                while ($row = $stmt->fetch()) { ?>
                 <form>
                 <tr>
                   <?php 
@@ -41,7 +43,7 @@
                     <td><?php echo $row ['aufenthalt'];?></td>
                     <td><?php echo $row['dat'];?></td>
                     </form>
-                <?php endwhile;
+                <?php }
                  ?>
                  
                  </tr>
