@@ -2,7 +2,6 @@
     include_once '../db.php';
     $stmt = $pdo->query("SELECT * FROM orte ORDER BY id DESC");
 
-    echo $row['name']."<br />\n";
 
 
 
