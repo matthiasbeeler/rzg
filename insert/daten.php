@@ -1,11 +1,15 @@
 <?php
     include_once '../db.php';
     $stmt = $dbh->query("SELECT * FROM orte ORDER BY id DESC");
-
-
-
-
 ?>
+
+<style>
+    tr,th {
+        border: none;
+        border-top: 2px dotted black;
+        border-left: 2px dotted black;
+}
+</style>
 <a href="index.html">Back</a>
     <table>
                 <tr>
