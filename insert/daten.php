@@ -32,7 +32,7 @@
                     <td><?php echo $row ['dist'];?></td>
                     <td><?php echo $row ['staat'];?></td>
                     <td><?php echo $row ['gruend'];?></td>
-                    <td><?php echo $row ['aufenthalt'];?></td>
+                    <td><?php echo $row ['auenthalt'];?></td>
                     <td><?php echo $row['dat'];?></td>
                     </form>
                 <?php }
