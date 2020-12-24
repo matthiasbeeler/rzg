@@ -16,7 +16,7 @@
                     <th>Staat</th>
                     <th>gruendung</th>
                     <th>Aufenthaltszeit</th>
-                    <th>Wann</th>
+                    <th width="20%">Wann</th>
                 </tr>
 
                 <?php 
