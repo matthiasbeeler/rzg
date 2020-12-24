@@ -1,5 +1,5 @@
 <?php
-
+    include_once '../db.php';
     $query = "SELECT * FROM orte ORDER BY id ASC";
     $filter_Result = mysqli_query($conn, $query);
 
