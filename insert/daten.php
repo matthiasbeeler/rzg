@@ -30,6 +30,7 @@
                     <th>Distanz</th>
                     <th>Staat</th>
                     <th>Beschaeftigung</th>
+                    <th>Ausgaben</th>
                     <th>Aufenthaltszeit</th>
                     <th width="20%">Datum</th>
                 </tr>
@@ -47,6 +48,7 @@
                     <td><?php echo $row ['dist'];?></td>
                     <td><?php echo $row ['staat'];?></td>
                     <td><?php echo $row ['was_machen'];?></td>
+                    <td><?php echo $row ['geld'];?></td>
                     <td><?php echo $row ['auenthalt'];?></td>
                     <td><?php echo $row['dat'];?></td>
                     </form>
