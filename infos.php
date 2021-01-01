@@ -32,7 +32,7 @@ $user = $stmt->fetch();
         <h3><?php echo $user['dat']; ?></h3></center><br>
     <h2>Staat: <?php echo $user['staat']; ?></h2>
     <h2>Gründung: <?php echo $user['gruend']; ?></h2>
-    <h2>Beschaeftigung: <?php echo $user['was_machen']; ?></h2>
+    <h2>Besch&auml;ftigung: <?php echo $user['was_machen']; ?></h2>
     <h2>Aufenthaltszeit: <?php echo $user['auenthalt']; ?></h2>
     <h2>Ausgaben: <?php echo $user['geld']; ?></h2>
     <h2>Hotel: <?php echo $user['hotel']; ?></h2>
