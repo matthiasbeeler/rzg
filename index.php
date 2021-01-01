@@ -15,6 +15,22 @@
             <button type="submit" value="41" name="sub" id="phil" class="btn"></button>
             <button type="submit" value="51" name="sub" id="pitt" class="btn"></button>
             <button type="submit" value="61" name="sub" id="chic" class="btn"></button>
+            <button type="submit" value="71" name="sub" id="pont" class="btn"></button>
+            <button type="submit" value="81" name="sub" id="st" class="btn"></button>
+            <button type="submit" value="91" name="sub" id="spring" class="btn"></button>
+            <button type="submit" value="101" name="sub" id="tulsa" class="btn"></button>
+            <button type="submit" value="111" name="sub" id="okcit" class="btn"></button>
+            <button type="submit" value="121" name="sub" id="amar" class="btn"></button>
+            <button type="submit" value="131" name="sub" id="tucu" class="btn"></button>
+            <button type="submit" value="141" name="sub" id="albu" class="btn"></button>
+            <button type="submit" value="151" name="sub" id="gallup" class="btn"></button>
+            
+            <button type="submit" value="71" name="sub" id="pont" class="btn"></button>
+            
+            <button type="submit" value="71" name="sub" id="pont" class="btn"></button>
+            
+            <button type="submit" value="71" name="sub" id="pont" class="btn"></button>
+
             </form>
         </div>
     </div>
