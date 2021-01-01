@@ -11,6 +11,8 @@
 
 input[type="submit"]{
     border: none;
+    height: 2%;
+    width: 1%;
     font-size: 0px;
     padding: 1%;
     background-color: rgb(0, 255, 98);
