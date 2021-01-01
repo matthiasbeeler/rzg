@@ -35,6 +35,6 @@
             </form>
         </div>
     </div>
-
+    <h6>&copy;<a href="https://beelerstudios.com/">BEELERSTUDIOS</a>2021. All Rights Reserved.</h6>
 </body>
 </html>

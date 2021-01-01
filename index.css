@@ -122,3 +122,9 @@ button{
     left: 50px;
     top: 280px;
 }
+
+h6{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
