@@ -15,6 +15,7 @@ button{
     width: 1%;
     font-size: 0px;
     padding: 1%;
+    outline: none;
     background-color: rgb(0, 255, 98);
     border-radius: 360px;
 }
@@ -92,10 +93,10 @@ button{
     top: 280px;
 }
 
-#spring{
+#petr{
     position: absolute;
-    left: 430px;
-    top: 255px;
+    left: 190px;
+    top: 260px;
 }
 
 #spring{

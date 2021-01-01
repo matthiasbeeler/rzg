@@ -24,8 +24,7 @@
             <button type="submit" value="131" name="sub" id="tucu" class="btn"></button>
             <button type="submit" value="141" name="sub" id="albu" class="btn"></button>
             <button type="submit" value="151" name="sub" id="gallup" class="btn"></button>
-            
-            <button type="submit" value="71" name="sub" id="pont" class="btn"></button>
+            <button type="submit" value="161" name="sub" id="petr" class="btn"></button>
             
             <button type="submit" value="71" name="sub" id="pont" class="btn"></button>
             
