@@ -24,6 +24,7 @@
 
     <table>
                 <tr>
+                    <th>id</th>
                     <th>Stadt</th>
                     <th>Von wo</th>
                     <th>Fahrtzeit</th>
@@ -42,7 +43,7 @@
                 <tr>
                   <?php 
                   ?>
-                    
+                    <td><?php echo $row['id']; ?></td>
                     <td ><?php echo $row['was'];?></td>
                     <td><?php echo $row['von']; ?></td>
                     <td><?php echo $row ['zeit'];?></td>
