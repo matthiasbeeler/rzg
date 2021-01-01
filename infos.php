@@ -36,7 +36,7 @@ $user = $stmt->fetch();
     <h2>Aufenthaltszeit: <?php echo $user['auenthalt']; ?></h2>
     <h2>Ausgaben: <?php echo $user['geld']; ?></h2>
     <h2>Hotel: <?php echo $user['hotel']; ?></h2>
-    <img src="img/<?php echo $user['was']; ?>.png" alt="">
+    <img src="img/<?php echo $user['was']; ?>.jpeg" alt="">
     </div>
     </div>
 </body>
