@@ -9,7 +9,7 @@
     height: 100%;
 }
 
-input[type="submit"]{
+button{
     border: none;
     height: 2%;
     width: 1%;
