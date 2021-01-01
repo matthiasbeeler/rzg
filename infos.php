@@ -34,7 +34,7 @@ $user = $stmt->fetch();
     <h2>Gründung: <?php echo $user['gruend']; ?></h2>
     <h2>Besch&auml;ftigung: <?php echo $user['was_machen']; ?></h2>
     <h2>Aufenthaltszeit: <?php echo $user['auenthalt']; ?></h2>
-    <h2>Ausgaben: <?php echo $user['geld']; ?></h2>
+    <h2>Ausgaben: <?php echo $user['geld']; ?> CHF</h2>
     <h2>Hotel: <?php echo $user['hotel']; ?></h2>
     <img src="img/<?php echo $user['was']; ?>.jpeg" alt="">
     </div>
