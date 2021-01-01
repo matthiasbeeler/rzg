@@ -25,10 +25,12 @@
             <button type="submit" value="141" name="sub" id="albu" class="btn"></button>
             <button type="submit" value="151" name="sub" id="gallup" class="btn"></button>
             <button type="submit" value="161" name="sub" id="petr" class="btn"></button>
+            <button type="submit" value="181" name="sub" id="sed" class="btn"></button>
             
-            <button type="submit" value="71" name="sub" id="pont" class="btn"></button>
-            
-            <button type="submit" value="71" name="sub" id="pont" class="btn"></button>
+            <button type="submit" value="191" name="sub" id="antl" class="btn"></button>
+            <button type="submit" value="201" name="sub" id="lasv" class="btn"></button>
+
+            <button type="submit" value="211" name="sub" id="losa" class="btn"></button>
 
             </form>
         </div>

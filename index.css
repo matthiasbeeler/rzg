@@ -99,8 +99,26 @@ button{
     top: 260px;
 }
 
-#spring{
+#sed{
     position: absolute;
-    left: 430px;
-    top: 255px;
+    left: 160px;
+    top: 280px;
+}
+
+#antl{
+    position: absolute;
+    left: 160px;
+    top: 247px;
+}
+
+#lasv{
+    position: absolute;
+    left: 105px;
+    top: 250px;
+}
+
+#losa{
+    position: absolute;
+    left: 50px;
+    top: 280px;
 }
