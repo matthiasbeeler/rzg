@@ -39,7 +39,7 @@ $user = $stmt->fetch();
     <img src="img/<?php echo $user['was']; ?>.jpeg" alt="">
     </div>
     </div>
-    <h6>&copy;<a href="https://beelerstudios.com/">BEELERSTUDIOS</a>2021. All Rights Reserved.</h6>
+    <h6>&copy;<a href="https://beelerstudios.com/">BEELERSTUDIOS</a> 2021. All Rights Reserved.</h6>
 
 </body>
 </html>
