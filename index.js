@@ -13,6 +13,9 @@ app.set('view engine', 'ejs')
 app.get('/', function(req, res) {
     res.render('ejs/home')
  })
+ app.get('/daten', function(req, res) {
+    res.render('ejs/daten')
+ })
  app.get('/infos', function(req, res) {
       const id = req.query.sub
       console.log(id);
