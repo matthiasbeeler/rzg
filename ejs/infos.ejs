@@ -1,0 +1,45 @@
+<!--<?php
+include_once 'db.php';
+
+$id = $_POST['sub'];
+
+$stmt = $dbh->prepare("SELECT * FROM orte WHERE id=?");
+$stmt->execute([$id]); 
+$user = $stmt->fetch();
+?> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="infos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infos</title>
+</head>
+<body>
+
+    <h3><a href="/">Back</a></h3>
+    <div class="container">
+    <div class="route">
+    <center><h1><%=von%> - <%=wo%></h1></center><br>
+    <h2>Fahrt: <%=zeit%>h</h2>
+    <h2>Distanz: <%=dist%>km</h2>
+    <img src="routen/<%=wo%>.png" alt="">
+    </div>
+
+    <div class="ort">
+    <center><h1><%=wo%></h1>
+        <h3><%=dat%></h3></center><br>
+    <h2>Staat: <%=staat%></h2>
+    <h2>Gründung: <%=gruend%></h2>
+    <h2>Besch&auml;ftigung: <%=was_mach%></h2>
+    <h2>Aufenthaltszeit: <%=auf_zeit%></h2>
+    <h2>Ausgaben: <%=geld%> CHF</h2>
+    <h2>Hotel: <%=hotel%></h2>
+    <img src="img/<%=wo%>.jpeg" alt="">
+    </div>
+    </div>
+    <h6>&copy;<a href="https://beelerstudios.com/">BEELERSTUDIOS</a> 2021. All Rights Reserved.</h6>
+
+</body>
+</html>

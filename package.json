@@ -1,0 +1,29 @@
+{
+  "name": "rzg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js nodeman",
+    "start": "node inde.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbeeler46-ai/rzg.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbeeler46-ai/rzg/issues"
+  },
+  "homepage": "https://github.com/mbeeler46-ai/rzg#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "nodeman": "^1.1.2",
+    "path": "^0.12.7"
+  }
+}

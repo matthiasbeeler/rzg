@@ -9,6 +9,11 @@
     height: 100%;
 }
 
+*{
+    font-family: sans-serif;
+    color: black;
+}
+
 button{
     border: none;
     height: 2%;
@@ -126,5 +131,6 @@ button{
 h6{
     position: fixed;
     bottom: 0;
+    margin: 0;
     left: 0;
 }
