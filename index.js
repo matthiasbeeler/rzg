@@ -18,7 +18,7 @@ app.get('/', function(req, res) {
  })
  app.get('/infos', function(req, res) {
       const id = req.query.sub
-      console.log(id);
+      console.log("id: ", id);
 
       db.getConnection(function(err, connection) {
         if (err) {
@@ -38,7 +38,7 @@ app.get('/', function(req, res) {
             const beschaeft = results[0].was_machen;
             const geld = results[0].geld;
             const hotel = results[0].hotel;
-            console.log(geld);
+            console.log("geld: ", geld);
 
 
             res.render('ejs/infos', {von: von, wo: wo, zeit: reise_zeit, dist: dist, dat: anreise_datum, staat: staat, gruend: gruend, was_mach: beschaeft, auf_zeit: aufenthalt, geld: geld, hotel: hotel})
