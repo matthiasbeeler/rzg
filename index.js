@@ -16,6 +16,9 @@ app.get('/', function(req, res) {
  app.get('/daten', function(req, res) {
     res.render('ejs/daten')
  })
+ app.get('/uber', function(req, res) {
+  res.render('ejs/uber')
+})
  app.get('/infos', function(req, res) {
       const id = req.query.sub
       console.log("id: ", id);
