@@ -12,21 +12,9 @@ app.set('view engine', 'ejs')
 
 app.get('/', function(req, res) {
     res.render('ejs/home')
-
-    	
  })
  app.get('/daten', function(req, res) {
-
-  db.getConnection(function(err, connection) {
-    if (err) {
-        connection.release();
-          console.log(' Error getting db connection: ' + err);
-          throw err;
-      }
-connection.query('SELECT * FROM orte', function(error, results, fields) {
-  res.send(results);
-});	
-});
+    res.render('ejs/daten')
  })
  app.get('/uber', function(req, res) {
   res.render('ejs/uber')
