@@ -14,7 +14,16 @@ app.get('/', function(req, res) {
     res.render('ejs/home')
  })
  app.get('/daten', function(req, res) {
-    res.render('ejs/daten')
+   db.getConnection(function(err, connection) {
+        if (err) {
+            connection.release();
+              console.log(' Error getting db connection: ' + err);
+              throw err;
+          }
+    connection.query('SELECT * FROM orte', function(error, results, fields) {
+           res.send(results);
+    });	
+    });
  })
  app.get('/uber', function(req, res) {
   res.render('ejs/uber')
