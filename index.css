@@ -1,6 +1,7 @@
 .bg{
-    background-image: url(map.jpg);
+    background-image: url(routen/ss2.png);
     position: absolute;
+    background-repeat: no-repeat;
     background-size: contain;
     width: 819px;
     height: 541px;
@@ -9,10 +10,16 @@
     height: 100%;
 }
 
+body{
+    background-color: #9bcff4;
+}
+
 *{
     font-family: sans-serif;
     color: black;
 }
+
+
 
 button{
     border: none;
@@ -21,47 +28,47 @@ button{
     font-size: 0px;
     padding: 1%;
     outline: none;
-    background-color: rgb(0, 255, 98);
+    background-color: rgba(0, 255, 98, 0);
     border-radius: 360px;
 }
 
 #nyc{
     position: absolute;
-    left: 700px;
-    top: 150px;
+    left: 732px;
+    top: 163px;
 }
 #phil{
     position: absolute;
-    left: 680px;
-    top: 170px;
+    left: 714px;
+    top: 179px;
 }
 
 #pitt{
     position: absolute;
-    left: 630px;
-    top: 177px;
+    left: 644px;
+    top: 169px;
 }
 #chic{
     position: absolute;
-    left: 505px;
-    top: 165px;
+    left: 530px;
+    top: 143px;
 }
 
 #pont{
     position: absolute;
-    left: 490px;
-    top: 185px;
+    left: 514px;
+    top: 168px;
 }
 #st{
     position: absolute;
-    left: 480px;
-    top: 220px;
+    left: 490px;
+    top: 209px;
 }
 
 #spring{
     position: absolute;
-    left: 430px;
-    top: 255px;
+    left: 443px;
+    top: 235px;
 }
 #tulsa{
     position: absolute;
@@ -133,4 +140,9 @@ h6{
     bottom: 0;
     margin: 0;
     left: 0;
+}
+
+
+img{
+    width: 30px;
 }
