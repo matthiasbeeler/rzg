@@ -9,6 +9,7 @@ var db  = mysql.createPool({
 	database : process.env.db
 });
 
+console.log(db);
 
 
 exports.db = db;
