@@ -13,6 +13,7 @@
 
 
 body{
+    margin: 0;
     background-color: #9bcff4;
     height: 100%;
     width: 100%;
@@ -33,110 +34,111 @@ button{
     z-index: 9;
     font-size: 0px;
     outline: none;
+    background: none;
     border-radius: 360px;
 }
 
 #nyc{
     position: absolute;
     left: 732px;
-    top: 164px;
+    top: 167px;
 }
 #phil{
     position: absolute;
     left: 714px;
-    top: 179px;
+    top: 182px;
 }
 
 #pitt{
     position: absolute;
     left: 644px;
-    top: 169px;
+    top: 172px;
 }
 #chic{
     position: absolute;
     left: 530px;
-    top: 143px;
+    top: 146px;
 }
 
 #pont{
     position: absolute;
     left: 514px;
-    top: 168px;
+    top: 171px;
 }
 #st{
     position: absolute;
     left: 490px;
-    top: 209px;
+    top: 212px;
 }
 
 #spring{
     position: absolute;
     left: 443px;
-    top: 235px;
+    top: 238px;
 }
 #tulsa{
     position: absolute;
     left: 406px;
-    top: 255px;
+    top: 258px;
 }
 
 #okcit{
     position: absolute;
     left: 382px;
-    top: 265px;
+    top: 268px;
 }
 
 #amar{
     position: absolute;
     left: 319px;
-    top: 270px;
+    top: 273px;
 }
 #tucu{
     position: absolute;
     left: 290px;
-    top: 270px;
+    top: 273px;
 }
 
 #albu{
     position: absolute;
     left: 246px;
-    top: 273px;
+    top: 276px;
 }
 
 #gallup{
     position: absolute;
     left: 217px;
-    top: 265px;
+    top: 268px;
 }
 
 #petr{
     position: absolute;
     left: 200px;
-    top: 278px;
+    top: 291px;
 }
 
 #sed{
     position: absolute;
     left: 170px;
-    top: 280px;
+    top: 283px;
 }
 
 #antl{
     position: absolute;
     left: 176px;
-    top: 243px;
+    top: 246px;
 }
 
 #lasv{
     position: absolute;
     left: 121px;
-    top: 254px;
+    top: 257px;
 }
 
 #losa{
     position: absolute;
     left: 74px;
-    top: 292px;
+    top: 295px;
 }
 
 h6{
