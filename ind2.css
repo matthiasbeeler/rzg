@@ -35,8 +35,18 @@ button{
     width: 1%;
     font-size: 0px;
     outline: none;
-    background: url(../img/ss.png);
+    background: transparent;
     border-radius: 360px;
+    -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        -webkit-appearance: button;
+    -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    -webkit-writing-mode: horizontal-tb !important;
+    -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 #nyc{
