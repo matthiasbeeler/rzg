@@ -34,9 +34,8 @@ button{
     z-index: 9;
     width: 1%;
     font-size: 0px;
-    padding: 1%;
     outline: none;
-    background-color: rgba(0, 255, 98, 0);
+    background: url(../img/ss.png);
     border-radius: 360px;
 }
 
