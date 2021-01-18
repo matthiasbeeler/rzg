@@ -22,7 +22,7 @@ $user = $stmt->fetch();
     <div class="container">
     <div class="route">
     <center><h1><%=von%> - <%=wo%></h1></center><br>
-    <h2>Fahrt: <%=zeit%>h</h2>
+    <h2>Fahrt: <%=zeit%> min</h2>
     <h2>Distanz: <%=dist%>km</h2>
     <img src="routen/<%=wo%>.png" alt="">
     </div>
@@ -34,7 +34,9 @@ $user = $stmt->fetch();
     <h2>Gründung: <%=gruend%></h2>
     <h2>Besch&auml;ftigung: <%=was_mach%></h2>
     <h2>Aufenthaltszeit: <%=auf_zeit%></h2>
-    <h2>Ausgaben: <%=geld%> CHF</h2>
+    <h2>Ausgaben <%=insge%> CHF</h2>
+    <h3>    [Hotel: <%=aus_hotel%> CHF</h3>
+    <h3>    Ausflug: <%=aus_aus%> CHF]</h3>
     <h2>Hotel: <%=hotel%></h2>
     <img src="img/<%=wo%>.jpeg" alt="">
     </div>

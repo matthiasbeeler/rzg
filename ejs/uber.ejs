@@ -4,15 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Info</title>
+    <style>
+        *{
+    font-family: sans-serif;
+    color: black;
+    text-decoration: none;
+}
+th, td{
+    border-left: 2px dotted black;
+    border-top: 2px dotted black;
+}
+img{
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+@media screen and (min-width: 600px) {
+    div{
+        width: 40%;
+    }
+    .container{
+        width: 100%;
+        justify-content: space-around;
+        display: flex;
+    }
+}
+h6{
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    left: 0;
+}
+    </style>
 </head>
 <body>
+    <h3><a href="/">Back</a></h3>
+    <div class="container">
     <div class="left">
         <h2>Kilometer gefahren: 5291</h2>
         <h2>Orte besucht: 18</h2>
         <h2>Kilometer gereist: 17'920</h2>
-        <h2>Zeitaufwand: 25 Tage</h2>
+        <h2>Zeitaufwand: 28 Tage</h2>
         <h2>Hotels besucht: 16</h2>
-        <h2>Geld f&uuml;r Auto: 1,537CHF</h2>
+        <h2>Geld f&uuml;r Auto: 18'861CHF</h2>
     </div>
     <div class="right">
         <h2>Verschiedene Aktivit&auml;ten: 25</h2>
@@ -21,5 +59,40 @@
         <h2>Stunden im Auto verbracht: 51</h2>
         <h2>Geld f&uuml;r Treibstoff: 213 CHF</h2>
     </div>
+
+    <div class="budget">
+        <h2 style="text-decoration: underline;">Budget</h2>
+        <table>
+            <tr><th>Ortschaften</th><th>Preis Hotel</th><th>Preis Ausflug</th></tr>
+            <tr><th>New York</th><td>327</td><td>454</td></tr>
+            <tr><th>Philadelphia</th><td>150</td><td>170</td></tr>
+            <tr><th>Pittsburgh</th><td>264</td><td>4</td></tr>
+            <tr><th>Chicago</th><td>422</td><td>0</td></tr>
+            <tr><th>Pontiac</th><td>0</td><td>0</td></tr>
+            <tr><th>St. Louis</th><td>210</td><td>6</td></tr>
+            <tr><th>Springfield</th><td>154</td><td>136</td></tr>
+            <tr><th>Tulsa</th><td>188</td><td>24</td></tr>
+            <tr><th>Oklahoma City</th><td>188</td><td>110</td></tr>
+            <tr><th>Amarillo</th><td>250</td><td>50</td></tr>
+            <tr><th>Tucumcari</th><td>127</td><td>0</td></tr>
+            <tr><th>Aluquerque</th><td>200</td><td>430</td></tr>
+            <tr><th>Gallup</th><td>40</td><td>0</td></tr>
+
+            <tr><th>Petrified Forest National Park</th><td>0</td><td>90</td></tr>
+            <tr><th>Sedona</th><td>305</td><td>260</td></tr>
+            <tr><th>Antelope Canyon</th><td>320</td><td>655</td></tr>
+            <tr><th>Las Vegas</th><td>260</td><td>290</td></tr>
+            <tr><th>Los Angeles</th><td>2100</td><td>2000</td></tr>
+            <tr><th>Fl&uuml;ge</th><td>540</td><td>1000</td></tr>
+            <tr><th>Essen</th><td>5600</td></tr>
+            <tr><th>Mietwagen</th><td>1537</td></tr>
+            <tr style="width: 100%; text-align: center;"><th style="border: none;"><h1>Total: 18861 CHF</h1></th></tr>
+        </table>
+    </div>
+    <div class="text">
+        <h3>Unser Roadtrip führt von New York nach Los Angeles. Über Pittsburgh fahren wir nach Chicago und von dort aus entspricht unsere Reise in etwa der Route 66. Aufgrund unserer vielfältigen Aktivitäten lernen wir Amerika aus verschiedenen Perspektiven aus kennen.</h3>
+    </div>
+</div>
+<h6>&copy;<a href="https://beelerstudios.com/">BEELERSTUDIOS</a> 2021. All Rights Reserved.</h6>
 </body>
-</html>        
+</html>

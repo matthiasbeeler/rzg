@@ -1,3 +1,4 @@
+// on this project I used only one handler file because for a project this small in my opinion its okay
 const express = require('express')
 const path = require('path')
 const PORT = process.env.PORT || 5000
@@ -13,6 +14,8 @@ app.set('view engine', 'ejs')
 app.get('/', function(req, res) {
     res.render('ejs/home')
  })
+
+ //getting all data from the server
  app.get('/daten', function(req, res) {
    db.getConnection(function(err, connection) {
         if (err) {
@@ -38,22 +41,26 @@ app.get('/', function(req, res) {
               console.log(' Error getting db connection: ' + err);
               throw err;
           }
+          //gettin required date from database for info page
     connection.query('SELECT * FROM orte WHERE id = ?', [id], function(error, results, fields) {
             const wo = results[0].was;
             const von = results[0].von;
-            const reise_zeit = results[0].zeit;
+            const reise_zeit = parseFloat(results[0].zeit);
+            const zeit = reise_zeit * 60;
             const dist = results[0].dist;
             const staat = results[0].staat;
             const gruend = results[0].gruend;
             const aufenthalt = results[0].auenthalt;
             const anreise_datum = results[0].dat;
             const beschaeft = results[0].was_machen;
-            const geld = results[0].geld;
+            const aus_geld = parseFloat(results[0].ausflug_geld);
+            const hotel_geld = parseFloat(results[0].hotel_geld);
+            const geld = hotel_geld + aus_geld;
             const hotel = results[0].hotel;
             console.log("geld: ", geld);
 
-
-            res.render('ejs/infos', {von: von, wo: wo, zeit: reise_zeit, dist: dist, dat: anreise_datum, staat: staat, gruend: gruend, was_mach: beschaeft, auf_zeit: aufenthalt, geld: geld, hotel: hotel})
+            // rendering info page
+            res.render('ejs/infos', {von: von, wo: wo, zeit: zeit, dist: dist, dat: anreise_datum, staat: staat, gruend: gruend, was_mach: beschaeft, auf_zeit: aufenthalt, insge: geld, aus_hotel: hotel_geld, aus_aus: aus_geld,hotel: hotel})
         res.end();
     });	
     });

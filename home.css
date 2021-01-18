@@ -10,8 +10,15 @@
     height: 100%;
 }
 
+
+
 body{
     background-color: #9bcff4;
+    height: 100%;
+    width: 100%;
+}
+html{
+    height: 100%;
 }
 
 *{
@@ -137,7 +144,7 @@ button{
 
 h6{
     position: fixed;
-    bottom: 0;
+    bottom: 1%;
     margin: 0;
     left: 0;
 }
@@ -145,4 +152,12 @@ h6{
 
 img{
     width: 30px;
+}
+
+#info{
+    position: fixed;
+    top: 1%;
+    left: 1%;
+    z-index: 9;
+    width: 5% !important;
 }
