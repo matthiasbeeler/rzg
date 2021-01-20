@@ -45,7 +45,11 @@ app.get('/', function(req, res) {
     connection.query('SELECT * FROM orte WHERE id = ?', [id], function(error, results, fields) {
             const wo = results[0].was;
             const von = results[0].von;
+<<<<<<< HEAD
             const zeit =results[0].zeit;
+=======
+            const zeit = parseFloat(results[0].zeit);
+>>>>>>> 1306a18f5a8be9f9474b247e4ecb3d589e4d58bd
             const dist = results[0].dist;
             const staat = results[0].staat;
             const gruend = results[0].gruend;
