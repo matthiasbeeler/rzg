@@ -1,11 +1,13 @@
-// on this project I used only one handler file because for a project this small in my opinion its okay
+// on this project I used only one handler file 'cause for a project this small in my opinion its okay
 const express = require('express')
 const path = require('path')
 const PORT = process.env.PORT || 5000
 const app = express()
-require('dotenv').config()
+var mysql = require('mysql');
 const db = require('./db/mysql').db;
+require('dotenv').config()
 const up = "1.1.2.2";
+
 
 app.use(express.static('./'))
 app.set('views', path.join(__dirname))
@@ -41,7 +43,7 @@ app.get('/', function(req, res) {
               console.log(' Error getting db connection: ' + err);
               throw err;
           }
-          //gettin required date from database for info page
+          //gettin required data from database for info page
     connection.query('SELECT * FROM orte WHERE id = ?', [id], function(error, results, fields) {
             const wo = results[0].was;
             const von = results[0].von;

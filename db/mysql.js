@@ -6,9 +6,10 @@ var db  = mysql.createPool({
     host     : process.env.host,
 	user     : process.env.user,
 	password : process.env.password,
-	database : process.env.db
+	database : process.env.db,
+	port: process.env.portt,
+	insecureAuth : true
 });
-
 
 
 exports.db = db;
